@@ -1,0 +1,53 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/media/media",
+    "pages/detail/detail",
+    "pages/list/list",
+    "pages/listDetail/listDetail",
+    "pages/map/map",
+    "pages/photo/photo"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "backgroundColor":"#000",
+    "navigationBarBackgroundColor": "#006DD9",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh":true
+  },
+ "tabBar": {
+      "selectedColor":"#006DD9",
+    "list":[{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath":"images/f1.png",
+      "selectedIconPath":"images/f1.fw.png"
+    }, 
+    {
+      "pagePath": "pages/media/media",
+      "text": "豆瓣电影",
+      "iconPath":"images/f2.png",
+      "selectedIconPath":"images/f2.fw.png"
+    },
+    {
+      "pagePath": "pages/list/list",
+      "text": "穿衣搭配",
+      "iconPath":"images/f1.png",
+      "selectedIconPath":"images/f1.fw.png"
+    },
+    {
+      "pagePath": "pages/map/map",
+      "text": "定位",
+       "iconPath":"images/f3.png",
+       "selectedIconPath":"images/f3.fw.png"
+     },
+      {
+      "pagePath": "pages/photo/photo",
+      "text": "拍照",
+       "iconPath":"images/f3.png",
+       "selectedIconPath":"images/f3.fw.png"
+     }
+    ]
+  }
+}
